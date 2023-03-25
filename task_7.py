@@ -31,4 +31,4 @@ if __name__ == "__main__":
     list_ = [random.randint(13, 25) for _ in range(10)]
     print(f'Неотсортированный список:\n{list_}')
     sort_list_ = quicksort(list_)
-    print(f'Отсортированный список посредством быстрой сортировки:\n{list_}')
+    print(f'Отсортированный список посредством быстрой сортировки:\n{sort_list_}')
