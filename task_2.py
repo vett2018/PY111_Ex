@@ -17,7 +17,7 @@ def last_name(n_people: int, k_number: int) -> int:
 
 if __name__ == "__main__":
     people_list = ["Коля", "Оля", "Вика", "Саша", "Витя"]
-    people_list_copy = people_list.copy() #копия создана для того что бы узнать порядковый номер человека
+    people_list_copy = people_list.copy() #копия списка создана для того что бы узнать порядковый номер человека
     print(f'Список людей: {" ".join(people_list)}')
     slog = int(input(f'Укажите кол-во слогов: '))
     people = last_name(len(people_list), slog)
